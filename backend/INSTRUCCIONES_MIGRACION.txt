@@ -1,0 +1,39 @@
+# 📋 INSTRUCCIONES PARA EJECUTAR LA MIGRACIÓN
+
+## PASO 1: Abre una terminal PowerShell en la carpeta backend
+
+```powershell
+cd "c:\Users\orosiles\Desktop\Nueva carpeta\tabulador de cambios\backend"
+```
+
+## PASO 2: Ejecuta el script de migracion
+
+```powershell
+node migrate-fix.js
+```
+
+Este script hará lo siguiente:
+✓ Verificará que la tabla work_items existe
+✓ Agregará las columnas faltantes (project_id, azure_project_id)
+✓ Mostrará todas las columnas de la tabla al finalizar
+
+## PASO 3: Inicia el servidor
+
+```powershell
+npm start
+```
+
+## PASO 4: Vuelve al navegador
+
+Actualiza la página (Ctrl+F5) y vuelve a intentar seleccionar un proyecto.
+
+## ⚠️ SI SIGUE MOSTRANDO ERROR:
+
+1. Abre la consola del navegador (F12)
+2. Ve a la pestaña "Network"
+3. Selecciona un proyecto
+4. Haz clic en la solicitud que falla (la que dice "work-items")
+5. Ve a la pestaña "Response"
+6. Copia el error completo y comparte
+
+Esto nos dirá exactamente cuál es el problema en la base de datos.

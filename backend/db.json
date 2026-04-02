@@ -1,0 +1,65 @@
+{
+  "changes": [
+    {
+      "descripcion": "test",
+      "prioridad": "Media",
+      "responsable": "octavio",
+      "fecha_limite": "",
+      "notas_tecnicas": "tes",
+      "estado": "Pendiente",
+      "id_cambio": "CHG-001",
+      "documentation": [
+        {
+          "id_registro": 1773337770709,
+          "id_cambio": "CHG-001",
+          "tipo_entrada": "ARCHIVO",
+          "contenido": {
+            "path": "uploads\\1773337770696-AppFin.pdf",
+            "originalname": "AppFin.pdf"
+          },
+          "formato": ".pdf",
+          "usuario": "Usuario Actual",
+          "fecha_creacion": "2026-03-12T17:49:30.710Z"
+        }
+      ],
+      "historial": [
+        {
+          "usuario": "Sistema",
+          "fecha": "2026-03-11T22:29:46.659Z",
+          "accion": "Creación del cambio"
+        },
+        {
+          "usuario": "Usuario Actual",
+          "fecha": "2026-03-12T17:49:30.710Z",
+          "accion": "Archivo 'AppFin.pdf' subido."
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "$2b$10$QnU.OAF8txBaLBvCulMc2OqN6PiJ5qcsIW4mLhdYTnWrxijnvAwSi",
+      "role": "admin",
+      "id_usuario": 1
+    },
+    {
+      "username": "admin",
+      "password": "$2b$10$XQFDQsOP4scZpQYTxFLZwOspwfRvjwNW6Xw97sPijqRTE9fpRqhgO",
+      "role": "admin",
+      "id_usuario": 2
+    },
+    {
+      "username": "test",
+      "password": "$2b$10$/5hw87lMNyTFIled38ZFEOtPemmyPy7rcHDBvCKx83R3X3UwqHxT6",
+      "role": "user",
+      "id_usuario": 3
+    },
+    {
+      "username": "orosiles",
+      "role": "admin",
+      "password": "$2b$10$2tOCpkYEvHy025aYW4sF4.u.0A38H7QVV7846BD75dF785g0Ml34W",
+      "id_usuario": 4
+    }
+  ]
+}
